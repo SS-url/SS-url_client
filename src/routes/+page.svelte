@@ -1,3 +1,6 @@
-<script lang="ts"></script>
-<h1>SvelteKit Vanilla Extract: Course Registration Example</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import MakeButton from "src/comp/Button/MakeButton.svelte";
+	let onclick = () => console.log("clicked!");
+</script>
+
+<MakeButton on:click={onclick}>Make URL!</MakeButton>
