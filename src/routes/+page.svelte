@@ -1,3 +1,12 @@
-<script lang="ts"></script>
-<h1>SvelteKit Vanilla Extract: Course Registration Example</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import MakeButton from "../../src/comp/Button/MakeButton.svelte";
+  import ProcessText from "../comp/ProcessText/ProcessText.svelte";
+  import UrlInput from "../comp/UrlInput/UrlInput.svelte";
+</script>
+
+<h1>Do SS-Url now!</h1>
+<div>
+  <UrlInput />
+  <MakeButton>Make URL!</MakeButton>
+  <ProcessText />
+</div>
