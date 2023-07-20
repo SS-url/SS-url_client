@@ -1,16 +1,13 @@
+import { vars } from '$lib/styles/vars.css';
 import { style } from '@vanilla-extract/css';
 
 export const button = style({
-	backgroundColor: 'red',
-	color: 'white',
-	padding: '10px',
-	borderRadius: '5px',
+	padding: vars.spacing.spacing3,
 	border: 'none',
+	borderRadius: vars.spacing.spacingbase,
+	backgroundColor: vars.color.primary.primary500,
+	color: 'black',
 	cursor: 'pointer',
-	fontSize: '1rem',
-	fontWeight: 'bold',
-	transition: 'all 0.3s ease',
-	':hover': {
-		backgroundColor: 'blue'
-	}
+	fontSize: vars.font.size.fontSize2,
+	fontWeight: vars.font.weight.fontWeightBold
 });

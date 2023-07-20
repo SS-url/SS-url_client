@@ -36,5 +36,29 @@ export const vars = createGlobalTheme(':root', {
 			fontWeightBold: '700',
 			fontWeightBlack: '900'
 		}
+	},
+	color: {
+		primary: {
+			primary100: '#F0F4F8',
+			primary200: '#D9E2EC',
+			primary300: '#BCCCDC',
+			primary400: '#9FB3C8',
+			primary500: '#829AB1',
+			primary600: '#627D98',
+			primary700: '#486581',
+			primary800: '#334E68',
+			primary900: '#243B53'
+		},
+		neutral: {
+			neutral100: '#F5F7FA',
+			neutral200: '#E4E7EB',
+			neutral300: '#CBD2D9',
+			neutral400: '#9AA5B1',
+			neutral500: '#7B8794',
+			neutral600: '#616E7C',
+			neutral700: '#52606D',
+			neutral800: '#3E4C59',
+			neutral900: '#323F4B'
+		}
 	}
 });
