@@ -1,5 +1,5 @@
-import { vars } from '$lib/styles/vars.css';
 import { style } from '@vanilla-extract/css';
+import { vars } from '../../styles/vars.css';
 
 export const inputContainer = style({
 	display: 'inline-block',

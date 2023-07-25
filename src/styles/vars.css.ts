@@ -1,7 +1,6 @@
-import { createGlobalTheme, createVar } from '@vanilla-extract/css';
+import { createGlobalTheme } from '@vanilla-extract/css';
 
-export const desktopBreakpoint = createVar();
-export const lineHeightRelaxed = createVar();
+// export const desktopBreakpoint = createVar();
 
 const BASE_SPACE = 4;
 
@@ -17,10 +16,6 @@ export const vars = createGlobalTheme(':root', {
 		spacing8: `${BASE_SPACE * 8}px`
 	},
 	font: {
-		family: {
-			fontFamilyBody: 'Source Sans Pro',
-			fontFamilyHeading: 'Source Serif Pro'
-		},
 		size: {
 			fontSizeRoot: '16px',
 			fontSize0: '0.8rem',
