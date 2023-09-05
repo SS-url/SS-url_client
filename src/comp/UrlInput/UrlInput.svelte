@@ -3,5 +3,5 @@
 </script>
 
 <div class={inputContainer}>
-<input class={input} />
+  <input class={input} />
 </div>

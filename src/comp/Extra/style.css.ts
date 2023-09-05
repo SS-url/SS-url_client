@@ -9,5 +9,7 @@ export const layout = style({
 });
 
 export const layoutContainer = style({
+	width: '100%',
+	border: '1px solid red',
 	textAlign: 'center'
 });

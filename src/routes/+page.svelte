@@ -8,8 +8,8 @@
 <div class={layout}>
   <h1>SS-url it, now!</h1>
   <div class={layoutContainer}>
+    <ProcessText />
     <UrlInput />
     <MakeButton>SS-Url</MakeButton>
-    <ProcessText />
   </div>
 </div>

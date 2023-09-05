@@ -17,43 +17,24 @@ export const vars = createGlobalTheme(':root', {
 	},
 	font: {
 		size: {
-			fontSizeRoot: '16px',
-			fontSize0: '0.8rem',
-			fontSize1: '1rem',
-			fontSize2: '1.25rem',
-			fontSize3: '1.563rem',
-			fontSize4: '1.953rem',
-			fontSize5: '2.441rem',
-			fontSize6: '3.052rem',
-			fontSize7: '3.815rem'
+			small: `${BASE_SPACE * 3}px`,
+			medium: `${BASE_SPACE * 4}px`,
+			large: `${BASE_SPACE * 5}px`
 		},
 		weight: {
-			fontWeightBold: '700',
-			fontWeightBlack: '900'
+			light: '400',
+			medium: '700',
+			bold: '900'
 		}
 	},
 	color: {
-		primary: {
-			primary100: '#F0F4F8',
-			primary200: '#D9E2EC',
-			primary300: '#BCCCDC',
-			primary400: '#9FB3C8',
-			primary500: '#829AB1',
-			primary600: '#627D98',
-			primary700: '#486581',
-			primary800: '#334E68',
-			primary900: '#243B53'
-		},
-		neutral: {
-			neutral100: '#F5F7FA',
-			neutral200: '#E4E7EB',
-			neutral300: '#CBD2D9',
-			neutral400: '#9AA5B1',
-			neutral500: '#7B8794',
-			neutral600: '#616E7C',
-			neutral700: '#52606D',
-			neutral800: '#3E4C59',
-			neutral900: '#323F4B'
+		primary100: '#87CEEB',
+		primary200: '#000080',
+		primary300: '#00A0A0',
+		default: {
+			black: '#000000',
+			white: '#FFFFFF',
+			gray: '#c6c6c6'
 		}
 	}
 });
